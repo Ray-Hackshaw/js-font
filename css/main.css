@@ -1,54 +1,53 @@
 @media only screen and (max-width: 600px) {
+  div {
+    margin-top: -45% !important;
+    width: 50%;
+    left: 0;
+    line-height: 20px;
+    position: absolute;
+  }
 
-    div {
-        margin-top: -45% !important;
-        width: 50%;
-        left: 0;
-        line-height: 20px;
-        position: absolute;
-    }
-    
-    span, p {
-        font-size: 2rem;
-    }
+  span,
+  p {
+    font-size: 2rem;
+  }
 
-    #sixth {
-        color: white;
-        background-color: black;
-        border: 2px solid black;
-        margin: auto;
-    }
-    
+  #sixth {
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    margin: auto;
+  }
 }
 
 body {
-    background-color: black;
-    color: white;
-    font-size: 4rem;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  font-size: 4rem;
 }
 
 div {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    text-align: center;
-    left: 0;
-    line-height: 200px;
-    margin-top: -100px;
-    position: absolute;
-    top: 40%;
-    width: 100%;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  left: 0;
+  line-height: 200px;
+  margin-top: -100px;
+  position: absolute;
+  top: 40%;
+  width: 100%;
 }
 
 span {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #sixth {
-    color: black;
-    background-color: white;
-    display: inline;
-    position: relative;
-    border: 2px solid black;
+  color: black;
+  background-color: white;
+  display: inline;
+  position: relative;
+  border: 2px solid black;
 }
-
